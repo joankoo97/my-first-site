@@ -35,24 +35,24 @@ export function Contact() {
   // 기본 데이터
   const defaultInfo = {
     name: "구모은",
-    title: "학원 영어 강사",
-    company: "이룸 학원",
-    experience: "7개월",
+    title: "부동산학 주전공 / 경영학 부전공 / 영어 강사",
+    company: "",
+    experience: "",
     phone: "010-3926-3028",
     email: "montivate@naver.com",
     website: "",
     location: "서울특별시 송파구 ",
-    workTime: "평일 09:00 - 18:00",
-    responseTime: "24시간 이내 응답",
-    sectionTitle: "연락처",
-    sectionSubtitle: "프로젝트 문의나 협업 제안을 기다리고 있습니다. 편하신 방법으로 연락주세요!",
+    workTime: "평일 16:00 - 22:00",
+    responseTime: "10분내 응답",
+    sectionTitle: "제가 중요하게 생각하는 가치는 이해, 설계, 그리고 실행입니다.",
+    sectionSubtitle: " 분석은 방향을 만들고, 실행은 의미를 만듭니다. 그리고 그 과정에서 함께 일하는 사람들과 신뢰를 쌓는 것이 결국 가장 큰 성장 방식이라고 믿습니다.",
     qrTitle: "QR 코드로 연락처 저장",
     qrSubtitle: "스캔하면 연락처가 자동으로 저장됩니다",
-    bottomMessage: "함께 성장하는 파트너가 되겠습니다.",
-    bottomSubMessage: "고객님의 성공적인 프로젝트를 위해 최선을 다하겠습니다.",
+    bottomMessage: "배운 것을 빠르게 적용하고, 더 나은 방법을 끊임없이 탐색하며,",
+    bottomSubMessage: "앞으로도 함께 결과를 만들어낼 수 있는 사람이 되고 싶습니다.",
     qrContent: ["name","phone","email","location","website"],
     profileEmoji: "👤",
-    background: {"image":"","video":"","color":"","opacity":0.1}
+    background: {"image":"","video":"","color":"#b7b79e","opacity":0.5}
   }
   
   // 소셜 링크 기본값 (배열 형태로 변경)

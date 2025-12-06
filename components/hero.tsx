@@ -36,16 +36,16 @@ export function Hero() {
   const defaultSocialLinks = [{"name":"Instagram","icon":"instagram","url":"https://instagram.com/username"},{"name":"YouTube","icon":"youtube","url":"https://youtube.com/@username"}]
   
   const defaultInfo = {
-    greeting: "안녕하세요,",
-    name: "구모은",
-    title: "단국대 학생입니다",
-    description: "프롭테크 기술로 부동산 시장을 분석합니다.",
-    profileImage: "/uploads/hero-profile-1761477237286.png",
+    greeting: "도시계획·부동산학 전공",
+    name: "'구모은'",
+    title: "마케팅적 시각을 갖춘 분석적 사고 & 글로벌 소통 능력의 부동산 전문가를 추구합니다.",
+    description: "부동산학과 더불어 경영학 부전공을 통해 다각적인 시야를 넓혔고, 영어 교육 경험으로 글로벌 소통 능력도 갖추었습니다. 언제나 긍정적이고 협력적인 태도로 새로운 도전에 임하고 있습니다.",
+    profileImage: "/uploads/hero-profile-1765028551063.png",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,
     projectButton: "프로젝트 보기",
-    background: {"image":"","video":"","color":"","opacity":0.1}
+    background: {"image":"/uploads/hero-background-1765012807702.jpg","video":"","color":"","opacity":0.9}
   }
 
   const [backgroundData, setBackgroundData] = useState<{ image: string; video: string; color: string; opacity: number } | null>(null)
